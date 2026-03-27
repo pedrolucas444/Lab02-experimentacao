@@ -1,0 +1,48 @@
+# 🔵 Ambientes virtuais
+.venv/
+venv/
+env/
+
+# 🔵 Repositórios clonados
+repos/
+
+# 🔵 Saídas e resultados
+ck_outputs/
+results/
+*.log
+
+# 🔵 Dados (NUNCA subir dataset bruto)
+data/
+consultas/data/
+*.csv
+*.xlsx
+
+# 🔵 Segredos / tokens
+secrets/
+consultas/secrets/
+.env
+
+# 🔵 CK tool
+ck/
+
+# 🔵 Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🔵 Jupyter Notebook
+.ipynb_checkpoints/
+
+# 🔵 Sistema (Mac/Windows lixo)
+.DS_Store
+Thumbs.db
+
+# 🔵 IDE / Editor
+.vscode/
+.idea/
+
+# 🔵 Git Large Files (extra proteção)
+*.zip
+*.tar.gz
+*.rar
